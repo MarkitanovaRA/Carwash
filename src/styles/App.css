@@ -1,0 +1,47 @@
+*{ 
+    margin:0;
+    padding: 0;
+    box-sizing:border-box; 
+    font-family: 'Open Sans', sans-serif;
+    
+    
+    
+}
+
+#root
+{
+    display:flex;
+    justify-content: center;
+}
+
+.App 
+{
+    width:800px;
+}
+
+.post{
+
+    flex-direction: column;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px solid #009C4F;
+    margin-top: 15px;
+    color:rgb(32, 32, 32);
+    margin-left:auto;
+    
+   
+}
+.post__content{
+    display:flex ;
+    justify-content: space-between; 
+    font-size:20px;
+    color:rgb(32, 32, 32);
+}
+
+.descript{
+    padding: 15px;
+    font-weight: 300; 
+    font-size:15px;
+    color:rgb(73, 73, 73);
+}
+
